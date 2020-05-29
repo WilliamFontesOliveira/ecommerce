@@ -1,4 +1,4 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?>   <div class="slider-area">
+<?php if(!class_exists('Rain\Tpl')){exit;}?> <div class="slider-area">
             <!-- Slider -->
             <div class="block-slider block-slider4">
                 <ul class="" id="bxslider-home4">
@@ -123,7 +123,7 @@
                                 </div>
                                 
                                 <h2>LG Leon 2015</h2>
-
+ 
                                 <div class="product-carousel-price">
                                     <ins>$400.00</ins> <del>$425.00</del>
                                 </div>                                 
@@ -138,7 +138,7 @@
                                 </div>
                                 
                                 <h2><a href="#">Sony microsoft</a></h2>
-
+ 
                                 <div class="product-carousel-price">
                                     <ins>$200.00</ins> <del>$225.00</del>
                                 </div>                            
@@ -153,7 +153,7 @@
                                 </div>
                                 
                                 <h2>iPhone 6</h2>
-
+ 
                                 <div class="product-carousel-price">
                                     <ins>$1200.00</ins> <del>$1355.00</del>
                                 </div>                                 
@@ -168,7 +168,7 @@
                                 </div>
                                 
                                 <h2><a href="#">Samsung gallaxy note 4</a></h2>
-
+ 
                                 <div class="product-carousel-price">
                                     <ins>$400.00</ins>
                                 </div>                            
@@ -196,8 +196,3 @@
                             <img src="/res/site/img/brand1.png" alt="">
                             <img src="/res/site/img/brand2.png" alt="">                            
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <!-- End brands area -->
