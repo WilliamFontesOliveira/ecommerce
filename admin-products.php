@@ -40,6 +40,38 @@ $app->post("/admin/products/create", function(){
 	exit;
 });
 
+$app->get("/admin/products/:idproduct", function($idproduct){
+
+	User::verifyLogin();
+
+	$product = new Product();
+
+	$product->get((int)$idproduct);
+
+	$page = new PageAdmin();
+
+	$page->setTpl("products-update", [
+		"product"=>$product->getValues()
+	]);
+});
+
+$app->get("/admin/products/:idproduct", function($idproduct){
+
+	User::verifyLogin();
+
+	$product = new Product();
+
+	$product->get((int)$idproduct);
+
+	$product->setData($_POST);
+
+	$product->save();
+
+	$product->setPhoto($_FILES["file"]);
+
+	header('Location: /admin/products');
+	exit;
+});
 
 
 ?>
